@@ -40,7 +40,7 @@ const App: React.FC = () => {
           </div>
         ))}
       </div>
-      <button onClick={handleClick} type='button'>Go to cats gallery</button>
+      <button onClick={handleClick} type='button'>Go to cat gallery</button>
     </div>
   );
 };
