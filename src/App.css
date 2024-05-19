@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.dog-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.dog-item img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: .5rem;
+}
+
+button {
+  border: none;
+  padding: 0.45rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background:none;
+  color: var(--button-text-color);
+}

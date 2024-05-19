@@ -1,0 +1,42 @@
+:root {
+  --linear-gradient-light: linear-gradient(180deg, #a4c3b2,#cce3de,#eaf4f4);
+  --linear-gradiente-dark: linear-gradient(180deg, #0d1b2a,#1b263b,#415a77);
+  --button-text-color-light: #000000;
+  --button-text-color-dark: #ffffff;
+  
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a{
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #fff;
+    background: var(--linear-gradiente-dark);
+    --button-text-color: var(--button-text-color-dark);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #000;
+    background: var(--linear-gradient-light);
+    --button-text-color: var(--button-text-color-light);
+  }
+}
